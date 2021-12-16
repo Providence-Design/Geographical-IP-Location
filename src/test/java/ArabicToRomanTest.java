@@ -37,26 +37,26 @@ public class ArabicToRomanTest {
     public void shouldConvertFive(){
         assertEquals("V", ArabicToRoman.convert(5));
     }
-//    @Test
-//    public void shouldConvertSix(){
-//        assertEquals("VI", ArabicToRoman.convert("6"));
-//    }
-//    @Test
-//    public void shouldConvertSeven(){
-//        assertEquals("VII", ArabicToRoman.convert("7"));
-//    }
-//    @Test
-//    public void shouldConvertEight(){
-//        assertEquals("VIII", ArabicToRoman.convert("8"));
-//    }
-//    @Test
-//    public void shouldConvertNine(){
-//        assertEquals("IX", ArabicToRoman.convert("9"));
-//    }
-//    @Test
-//    public void shouldConvertTen(){
-//        assertEquals("X", ArabicToRoman.convert("10"));
-//    }
+    @Test
+    public void shouldConvertSix(){
+        assertEquals("VI", ArabicToRoman.convert(6));
+    }
+    @Test
+    public void shouldConvertSeven(){
+        assertEquals("VII", ArabicToRoman.convert(7));
+    }
+    @Test
+    public void shouldConvertEight(){
+        assertEquals("VIII", ArabicToRoman.convert(8));
+    }
+    @Test
+    public void shouldConvertNine(){
+        assertEquals("IX", ArabicToRoman.convert(9));
+    }
+    @Test
+    public void shouldConvertTen(){
+        assertEquals("X", ArabicToRoman.convert(10));
+    }
 
 }
 
